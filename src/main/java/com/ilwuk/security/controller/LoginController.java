@@ -21,6 +21,9 @@ public class LoginController {
         return getUsername()+" 登录成功";
     }
 
+
+
+
     /**
      * 测试资源1
      * @return
@@ -32,7 +35,7 @@ public class LoginController {
     }
 
     /**
-     * 测试资源2
+     * 测试资
      * @return
      */
     @GetMapping(value = "/r/r2",produces = {"text/plain;charset=UTF-8"})
